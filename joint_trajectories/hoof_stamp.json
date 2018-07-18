@@ -6,8 +6,8 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1512914571, 
-                "nsecs": 794459963
+                "secs": 1531921829, 
+                "nsecs": 52942192
             }, 
             "frame_id": "", 
             "seq": 0
@@ -49,7 +49,7 @@
                 "effort": [], 
                 "time_from_start": {
                     "secs": 0, 
-                    "nsecs": 350000000
+                    "nsecs": 270823328
                 }
             }, 
             {
@@ -65,7 +65,7 @@
                 "effort": [], 
                 "time_from_start": {
                     "secs": 0, 
-                    "nsecs": 700000000
+                    "nsecs": 541646656
                 }
             }, 
             {
@@ -80,8 +80,8 @@
                 "velocities": [], 
                 "effort": [], 
                 "time_from_start": {
-                    "secs": 1, 
-                    "nsecs": 0
+                    "secs": 0, 
+                    "nsecs": 773780937
                 }
             }, 
             {
@@ -97,7 +97,7 @@
                 "effort": [], 
                 "time_from_start": {
                     "secs": 1, 
-                    "nsecs": 300000000
+                    "nsecs": 5915218
                 }
             }
         ]
