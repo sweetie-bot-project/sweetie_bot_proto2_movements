@@ -6,23 +6,23 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1512914563, 
-                "nsecs": 194622270
+                "secs": 1532105412, 
+                "nsecs": 491700294
             }, 
             "frame_id": "", 
             "seq": 0
         }, 
         "joint_names": [
-            "joint52", 
             "eyes_pitch", 
-            "eyes_yaw"
+            "eyes_yaw", 
+            "joint52"
         ], 
         "points": [
             {
                 "positions": [
-                    5.0553528175630784e-05, 
                     0.0, 
-                    0.0
+                    0.0, 
+                    5.0553528175630784e-05
                 ], 
                 "accelerations": [], 
                 "velocities": [], 
@@ -34,9 +34,9 @@
             }, 
             {
                 "positions": [
-                    0.6003815305976536, 
                     0.0, 
-                    0.0
+                    0.0, 
+                    -0.6
                 ], 
                 "accelerations": [], 
                 "velocities": [], 
@@ -48,9 +48,9 @@
             }, 
             {
                 "positions": [
-                    0.6003597600019105, 
                     0.0, 
-                    0.0
+                    0.0, 
+                    -0.6
                 ], 
                 "accelerations": [], 
                 "velocities": [], 
@@ -65,12 +65,6 @@
     "path_tolerance": [
         {
             "acceleration": 0.0, 
-            "position": 0.5, 
-            "name": "joint52", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
             "position": 3.14, 
             "name": "eyes_pitch", 
             "velocity": 0.0
@@ -79,6 +73,12 @@
             "acceleration": 0.0, 
             "position": 3.14, 
             "name": "eyes_yaw", 
+            "velocity": 0.0
+        }, 
+        {
+            "acceleration": 0.0, 
+            "position": 0.5, 
+            "name": "joint52", 
             "velocity": 0.0
         }
     ], 
@@ -86,12 +86,6 @@
         {
             "acceleration": 0.0, 
             "position": 0.5, 
-            "name": "joint52", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.5, 
             "name": "eyes_pitch", 
             "velocity": 0.0
         }, 
@@ -99,6 +93,12 @@
             "acceleration": 0.0, 
             "position": 0.5, 
             "name": "eyes_yaw", 
+            "velocity": 0.0
+        }, 
+        {
+            "acceleration": 0.0, 
+            "position": 0.5, 
+            "name": "joint52", 
             "velocity": 0.0
         }
     ]
