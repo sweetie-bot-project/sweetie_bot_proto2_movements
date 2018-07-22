@@ -6,8 +6,8 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1512914404, 
-                "nsecs": 123545685
+                "secs": 1532275219, 
+                "nsecs": 689733656
             }, 
             "frame_id": "", 
             "seq": 0
@@ -133,13 +133,13 @@
         }, 
         {
             "acceleration": 0.0, 
-            "position": 0.2, 
+            "position": 0.4, 
             "name": "joint33", 
             "velocity": 0.0
         }, 
         {
             "acceleration": 0.0, 
-            "position": 0.2, 
+            "position": 0.4, 
             "name": "joint34", 
             "velocity": 0.0
         }, 
