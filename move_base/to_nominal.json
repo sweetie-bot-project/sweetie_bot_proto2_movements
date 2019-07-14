@@ -1,0 +1,77 @@
+{
+    "n_steps": 0, 
+    "visualize_only": false, 
+    "execute_only": false, 
+    "position_tolerance": 0.07, 
+    "header": {
+        "stamp": {
+            "secs": 1563043407, 
+            "nsecs": 415780067
+        }, 
+        "frame_id": "base_link_path", 
+        "seq": 0
+    }, 
+    "base_goal": {
+        "position": {
+            "y": 0.0, 
+            "x": 0.0, 
+            "z": 0.2025
+        }, 
+        "orientation": {
+            "y": 0.0, 
+            "x": 0.0, 
+            "z": 0.0, 
+            "w": 1.0
+        }
+    }, 
+    "ee_goal": [
+        {
+            "frame_type": 4, 
+            "position": {
+                "y": 0.0386, 
+                "x": 0.080425, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg1", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 4, 
+            "position": {
+                "y": -0.0386, 
+                "x": 0.080425, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg2", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 4, 
+            "position": {
+                "y": 0.0386, 
+                "x": -0.080425, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg3", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 4, 
+            "position": {
+                "y": -0.0386, 
+                "x": -0.080425, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg4", 
+            "contact": true
+        }
+    ], 
+    "gait_type": "free", 
+    "duration": 3.0, 
+    "base_goal_bounds": 0, 
+    "orientation_tolerance": 0.5
+}
