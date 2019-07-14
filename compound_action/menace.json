@@ -1,0 +1,36 @@
+{
+	"action_list": [
+		{
+			"seq_num": 0,
+			"seq_delay": 0.0,
+			"cmd": {
+				"type": "motion/joint_trajectory",
+				"command": "menace"
+			}
+		},
+		{
+			"seq_num": 1,
+			"seq_delay": 0.0,
+			"cmd": {
+				"type": "voice/play_wav",
+				"command": "prepare_to_die"
+			}
+		},
+		{
+			"seq_num": 1,
+			"seq_delay": 4.0,
+			"cmd": {
+				"type": "voice/play_wav",
+				"command": "error_blasters_are_not_found"
+			}
+		},
+		{
+			"seq_num": 1,
+			"seq_delay": 6.0,
+			"cmd": {
+				"type": "motion/joint_trajectory",
+				"command": "menace_canceled"
+			}
+		}
+	]
+}
