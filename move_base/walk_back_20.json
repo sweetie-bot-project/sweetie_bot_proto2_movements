@@ -1,12 +1,12 @@
 {
-    "n_steps": 2, 
+    "n_steps": 3, 
     "visualize_only": false, 
     "execute_only": false, 
     "position_tolerance": 0.07, 
     "header": {
         "stamp": {
-            "secs": 1563095866, 
-            "nsecs": 451778888
+            "secs": 1563095984, 
+            "nsecs": 730375051
         }, 
         "frame_id": "base_link_path", 
         "seq": 0
@@ -14,14 +14,14 @@
     "base_goal": {
         "position": {
             "y": 0.0, 
-            "x": 0.0, 
+            "x": -0.2, 
             "z": 0.2025
         }, 
         "orientation": {
             "y": 0.0, 
             "x": 0.0, 
-            "z": 0.3826834323650898, 
-            "w": 0.9238795325112867
+            "z": 0.0, 
+            "w": 1.0
         }
     }, 
     "ee_goal": [
@@ -70,8 +70,8 @@
             "contact": true
         }
     ], 
-    "gait_type": "walk", 
-    "duration": 2.5, 
+    "gait_type": "walk_overlap", 
+    "duration": 3.0, 
     "base_goal_bounds": 0, 
     "orientation_tolerance": 0.5
 }
