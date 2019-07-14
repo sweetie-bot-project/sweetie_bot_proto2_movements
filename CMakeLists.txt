@@ -18,6 +18,6 @@ catkin_package()
 
 ## Mark other files for installation (e.g. launch and bag files, etc.)
 install(DIRECTORY 
-	joint_trajectories step_sequence
+	joint_trajectories step_sequence joint_state
     DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
