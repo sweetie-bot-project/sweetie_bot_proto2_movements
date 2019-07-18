@@ -1,0 +1,1 @@
+rosrun sweetie_bot_clop_generator walk -0.10 0.00 -40 -g walk_overlap -n 3 -d 3
