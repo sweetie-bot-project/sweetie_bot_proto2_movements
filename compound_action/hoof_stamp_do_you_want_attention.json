@@ -1,0 +1,20 @@
+{
+    "action_list": [
+        {
+            "cmd": {
+                "type": "motion/joint_trajectory", 
+                "command": "hoof_stamp"
+            }, 
+            "seq_delay": 0.3, 
+            "seq_num": 0
+        },
+        {
+            "cmd": {
+                "type": "voice/play_wav", 
+                "command": "do_you_want_my_attention"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        }
+    ]
+}
