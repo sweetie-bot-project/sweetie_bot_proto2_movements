@@ -1,0 +1,28 @@
+{
+    "action_list": [
+        {
+            "cmd": {
+                "type": "motion/joint_trajectory", 
+                "command": "brohoof_begin"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        }, 
+        {
+            "cmd": {
+                "type": "voice/play_wav", 
+                "command": "do_you_want_brohoof"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 1
+        }, 
+        {
+            "cmd": {
+                "type": "motion/joint_trajectory", 
+                "command": "brohoof_end"
+            }, 
+            "seq_delay": 3.0, 
+            "seq_num": 1
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "action_list": [
+        {
+            "cmd": {
+                "type": "motion/joint_trajectory", 
+                "command": "introduce_herself"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        },
+        {
+            "cmd": {
+                "type": "voice/play_wav", 
+                "command": "hello_im_sweetie_bot_friedship_programms"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        }
+    ]
+}
