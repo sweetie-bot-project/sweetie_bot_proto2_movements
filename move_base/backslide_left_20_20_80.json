@@ -5,8 +5,8 @@
     "position_tolerance": 0.07, 
     "header": {
         "stamp": {
-            "secs": 1563485424, 
-            "nsecs": 793366909
+            "secs": 1563458411, 
+            "nsecs": 510031938
         }, 
         "frame_id": "base_link_path", 
         "seq": 0
@@ -14,14 +14,14 @@
     "base_goal": {
         "position": {
             "y": -0.2, 
-            "x": 0.2, 
+            "x": -0.2, 
             "z": 0.2025
         }, 
         "orientation": {
             "y": 0.0, 
             "x": 0.0, 
-            "z": -0.7933533402912352, 
-            "w": 0.6087614290087207
+            "z": 0.6427876096865393, 
+            "w": 0.766044443118978
         }
     }, 
     "ee_goal": [
@@ -71,7 +71,7 @@
         }
     ], 
     "gait_type": "walk_overlap", 
-    "duration": 3.5, 
+    "duration": 4.0, 
     "base_goal_bounds": 0, 
     "orientation_tolerance": 0.5
 }
