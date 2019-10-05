@@ -6,8 +6,8 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1532263651, 
-                "nsecs": 769247955
+                "secs": 1570303278, 
+                "nsecs": 435809641
             }, 
             "frame_id": "", 
             "seq": 0
@@ -45,9 +45,6 @@
             "joint54", 
             "joint55", 
             "joint56", 
-            "joint_eyes_focus_x", 
-            "joint_eyes_focus_y", 
-            "joint_eyes_focus_z", 
             "support/leg1", 
             "support/leg2", 
             "support/leg3", 
@@ -85,9 +82,6 @@
                     -0.1061600000000002, 
                     0.0, 
                     0.12161500000000042, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -138,9 +132,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     0.0, 
                     1.0, 
@@ -185,9 +176,6 @@
                     -0.10634307999999987, 
                     -0.6807847200000023, 
                     0.12161500000000011, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -238,9 +226,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     0.0, 
                     1.0, 
@@ -288,9 +273,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     0.0, 
                     1.0, 
@@ -335,9 +317,6 @@
                     -0.1061600000000002, 
                     0.0, 
                     0.12161500000000042, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -548,24 +527,6 @@
             "position": 0.522, 
             "name": "joint56", 
             "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_z", 
-            "velocity": 0.0
         }
     ], 
     "goal_tolerance": [
@@ -759,24 +720,6 @@
             "acceleration": 0.0, 
             "position": 0.174, 
             "name": "joint56", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_z", 
             "velocity": 0.0
         }
     ]

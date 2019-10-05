@@ -6,8 +6,8 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1532279585, 
-                "nsecs": 317517698
+                "secs": 1570303313, 
+                "nsecs": 381954104
             }, 
             "frame_id": "", 
             "seq": 0
@@ -45,9 +45,6 @@
             "joint54", 
             "joint55", 
             "joint56", 
-            "joint_eyes_focus_x", 
-            "joint_eyes_focus_y", 
-            "joint_eyes_focus_z", 
             "support/leg1", 
             "support/leg2", 
             "support/leg3", 
@@ -88,9 +85,6 @@
                     0.06292304705653029, 
                     0.07493288673001695, 
                     0.10066572441212208, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     1.0, 
                     1.0, 
@@ -136,9 +130,6 @@
                     -4.2387712238303255e-191, 
                     -5.977297533417816e-05, 
                     -2.028317214795293e-182, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     1.0, 
@@ -348,24 +339,6 @@
             "position": 0.522, 
             "name": "joint56", 
             "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_z", 
-            "velocity": 0.0
         }
     ], 
     "goal_tolerance": [
@@ -559,24 +532,6 @@
             "acceleration": 0.0, 
             "position": 0.174, 
             "name": "joint56", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_z", 
             "velocity": 0.0
         }
     ]

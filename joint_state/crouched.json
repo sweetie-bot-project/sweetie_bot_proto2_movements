@@ -39,9 +39,6 @@
         0.0, 
         0.0, 
         0.0, 
-        0.0, 
-        0.0, 
-        0.0, 
         0.0
     ], 
     "effort": [], 
@@ -77,10 +74,7 @@
         "joint55", 
         "joint56", 
         "eyes_pitch", 
-        "eyes_yaw", 
-        "joint_eyes_focus_x", 
-        "joint_eyes_focus_y", 
-        "joint_eyes_focus_z"
+        "eyes_yaw"
     ], 
-    "velocity": [] 
+    "velocity": []
 }

@@ -6,8 +6,8 @@
     "trajectory": {
         "header": {
             "stamp": {
-                "secs": 1532274709, 
-                "nsecs": 266608270
+                "secs": 1570303327, 
+                "nsecs": 139007582
             }, 
             "frame_id": "", 
             "seq": 0
@@ -45,9 +45,6 @@
             "joint54", 
             "joint55", 
             "joint56", 
-            "joint_eyes_focus_x", 
-            "joint_eyes_focus_y", 
-            "joint_eyes_focus_z", 
             "support/leg1", 
             "support/leg2", 
             "support/leg3", 
@@ -85,9 +82,6 @@
                     -0.12355260000000041, 
                     0.0, 
                     0.12905500000000034, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -139,9 +133,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     1.0, 
                     1.0
@@ -185,9 +176,6 @@
                     -0.12355259999952985, 
                     0.0, 
                     0.12905499999950876, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -235,9 +223,6 @@
                     -0.12355259999953061, 
                     0.0, 
                     0.12905499999950962, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -289,9 +274,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     1.0, 
                     1.0
@@ -335,9 +317,6 @@
                     -0.12355259999952944, 
                     0.0, 
                     0.12905499999950834, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -388,9 +367,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     0.0, 
                     1.0, 
@@ -438,9 +414,6 @@
                     0.0, 
                     0.0, 
                     0.0, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     1.0, 
                     0.0, 
                     1.0, 
@@ -485,9 +458,6 @@
                     -0.12355260000000041, 
                     0.0, 
                     0.12905500000000034, 
-                    0.0, 
-                    0.0, 
-                    0.0, 
                     0.0, 
                     0.0, 
                     0.0, 
@@ -698,24 +668,6 @@
             "position": 0.522, 
             "name": "joint56", 
             "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.522, 
-            "name": "joint_eyes_focus_z", 
-            "velocity": 0.0
         }
     ], 
     "goal_tolerance": [
@@ -909,24 +861,6 @@
             "acceleration": 0.0, 
             "position": 0.174, 
             "name": "joint56", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_x", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_y", 
-            "velocity": 0.0
-        }, 
-        {
-            "acceleration": 0.0, 
-            "position": 0.174, 
-            "name": "joint_eyes_focus_z", 
             "velocity": 0.0
         }
     ]
