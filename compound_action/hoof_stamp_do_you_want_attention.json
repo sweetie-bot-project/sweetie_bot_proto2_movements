@@ -7,7 +7,7 @@
             }, 
             "seq_delay": 0.3, 
             "seq_num": 0
-        },
+        }, 
         {
             "cmd": {
                 "type": "voice/play_wav", 
