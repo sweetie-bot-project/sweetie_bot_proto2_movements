@@ -1,0 +1,20 @@
+{
+    "action_list": [
+        {
+            "cmd": {
+                "type": "motion/joint_trajectory", 
+                "command": "applause"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        }, 
+        {
+            "cmd": {
+                "type": "voice/play_wav", 
+                "command": "you_must_be_upgraded2"
+            }, 
+            "seq_delay": 0.0, 
+            "seq_num": 0
+        }
+    ]
+}
