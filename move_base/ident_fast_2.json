@@ -1,0 +1,77 @@
+{
+    "n_steps": 4, 
+    "visualize_only": false, 
+    "execute_only": false, 
+    "position_tolerance": 0.07, 
+    "header": {
+        "stamp": {
+            "secs": 1584115611, 
+            "nsecs": 82648992
+        }, 
+        "frame_id": "base_link_path", 
+        "seq": 0
+    }, 
+    "base_goal": {
+        "position": {
+            "y": -0.2, 
+            "x": -0.4, 
+            "z": 0.2025
+        }, 
+        "orientation": {
+            "y": 0.0, 
+            "x": 0.0, 
+            "z": 0.0, 
+            "w": 1.0
+        }
+    }, 
+    "ee_goal": [
+        {
+            "frame_type": 0, 
+            "position": {
+                "y": 0.0, 
+                "x": 0.0, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg1", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 0, 
+            "position": {
+                "y": 0.0, 
+                "x": 0.0, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg2", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 0, 
+            "position": {
+                "y": 0.0, 
+                "x": 0.0, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg3", 
+            "contact": true
+        }, 
+        {
+            "frame_type": 0, 
+            "position": {
+                "y": 0.0, 
+                "x": 0.0, 
+                "z": 0.0
+            }, 
+            "position_bounds": 4, 
+            "name": "leg4", 
+            "contact": true
+        }
+    ], 
+    "gait_type": "walk_overlap", 
+    "duration": 3.4, 
+    "base_goal_bounds": 0, 
+    "orientation_tolerance": 0.5
+}

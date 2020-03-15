@@ -3,7 +3,7 @@
         {
             "cmd": {
                 "type": "motion/joint_trajectory", 
-                "command": "begone3"
+                "command": "begone"
             }, 
             "seq_delay": 0.0, 
             "seq_num": 0
@@ -11,9 +11,9 @@
         {
             "cmd": {
                 "type": "voice/play_wav", 
-                "command": "do_not_touch_me"
+                "command": "i_remember_you"
             }, 
-            "seq_delay": 0.0, 
+            "seq_delay": 0.5, 
             "seq_num": 0
         }
     ]

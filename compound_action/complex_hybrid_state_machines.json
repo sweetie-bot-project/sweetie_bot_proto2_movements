@@ -3,7 +3,7 @@
         {
             "cmd": {
                 "type": "motion/joint_trajectory", 
-                "command": "begone3"
+                "command": "look_on_printer_fast"
             }, 
             "seq_delay": 0.0, 
             "seq_num": 0
@@ -11,7 +11,7 @@
         {
             "cmd": {
                 "type": "voice/play_wav", 
-                "command": "do_not_touch_me"
+                "command": "hybrid_state_machines"
             }, 
             "seq_delay": 0.0, 
             "seq_num": 0
